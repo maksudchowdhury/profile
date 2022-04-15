@@ -1,0 +1,26 @@
+body,html{
+    background: black;
+    color:white;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid magenta; */
+    height: 97vh;
+}
+.logo{
+    /* border: 2px solid lime; */
+    display: flex;
+    justify-content: center;
+}
+.brandLogo{
+    width: 70%;
+    /* border: 2px solid red; */
+}
+.btn-outline-light{
+    margin-top: 10%;
+    width: 150px;
+    border-radius: 30px;
+}
